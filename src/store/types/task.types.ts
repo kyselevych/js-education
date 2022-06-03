@@ -4,5 +4,5 @@ export type Task = {
     description: string
     solution: string | number,
     completed: boolean,
-    section: any
+    sectionId: number
 }

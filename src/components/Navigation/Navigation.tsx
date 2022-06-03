@@ -13,7 +13,7 @@ function Navigation() {
 
     const getMenuItems = useCallback(() => {
         return sections.map(section => {
-            const tasksOfSection = tasks.filter(task => task.section.id === section.id);
+            const tasksOfSection = tasks.filter(task => task.sectionId === section.id);
             const children = tasksOfSection.map(task => (
                 {
                     label: <Link to={'task/' + task.id}>{task.title}</Link>,
