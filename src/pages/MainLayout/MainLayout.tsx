@@ -6,15 +6,16 @@ import {Outlet} from "react-router-dom";
 function MainLayout() {
     return (
         <Layout style={{height: "100vh"}}>
-            <Layout.Sider className="sider">
+            <Layout.Sider className="sider" width={250}>
                 <div className="sider__logo">
                     <span>JS</span> Education
                 </div>
-                <Divider/>
                 <Navigation/>
             </Layout.Sider>
             <Layout.Content>
-                <Outlet/>
+                <div className="content">
+                    <Outlet/>
+                </div>
             </Layout.Content>
         </Layout>
     );
