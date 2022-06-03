@@ -14,11 +14,11 @@ function checkSolution(task: Task, code: string): SolutionResult {
 
         switch (result) {
             case undefined:
-                return {status: false, message: "The code does not return anything!"};
+                return {status: false, message: "Рішення має повертати значення!"};
             case task.solution:
-                return {status: true, message: "Congratulations! The task is successfully completed!"};
+                return {status: true, message: "Завдання виконано!"};
             default:
-                return {status: false, message: "Oops! Wrong answer!"}
+                return {status: false, message: "Упс! Неправильна відповідь!"}
         }
     }
     catch(error) {

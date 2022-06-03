@@ -34,10 +34,10 @@ function Task() {
         const solution: SolutionResult = checkSolution(task, codeValue);
 
         if (solution.status) {
-            showNotification("success", "Success!", solution.message);
+            showNotification("success", "Успішно!", solution.message);
             dispatch(completeTask(taskId));
         } else {
-            showNotification("error", "Error!", solution.message);
+            showNotification("error", "Сталася помилка!", solution.message);
         }
     }
 
@@ -65,7 +65,7 @@ function Task() {
                         value={codeValue}
                         onChange={(value) => setCodeValue(value)}
                     />
-                    <Button type="primary" style={{marginTop: 25}} onClick={handleCheck}>Check solution</Button>
+                    <Button type="primary" style={{marginTop: 25}} onClick={handleCheck}>Відправити рішення</Button>
                 </Col>
             </Row>
         </div>
