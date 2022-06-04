@@ -1,35 +1,74 @@
 [
 	{
 		"id": 1,
-		"title": "Task 1",
-		"description": "Make something",
-		"solution": "20",
+		"title": "Добуток елементів масиву",
+		"description": "Даний масив з елементами [2, 3, 4, 5]. За допомогою циклу for знайдіть добуток елементів цього масиву.",
+		"solution": 120,
 		"completed": false,
-		"section": {
-			"id": 1,
-			"name": "Loops"
-		}
+		"sectionId": 1
 	},
 	{
 		"id": 2,
-		"title": "Task 2",
-		"description": "Make something one more time",
-		"solution": "30",
+		"title": "Сума додатніх елементів масиву",
+		"description": "Дано масив [1,5,-10,8,-2,9,-7] із числами. Числа можуть бути додатніми та від'ємними. Знайдіть суму позитивних елементів масиву.",
+		"solution": 23,
 		"completed": false,
-		"section": {
-			"id": 1,
-			"name": "Loops"
-		}
+		"sectionId": 1
 	},
 	{
 		"id": 3,
-		"title": "Task 1",
-		"description": "Make something logic",
-		"solution": "10",
+		"title": "Середнє арифметичне масива",
+		"description": "Дано масив [12, 15, 20, 25, 59, 79]. Знайдіть середнє арифметичне його елементів.",
+		"solution": 35,
 		"completed": false,
-		"section": {
-			"id": 2,
-			"name": "Logic"
-		}
+		"sectionId": 2
+	},
+	{
+		"id": 4,
+		"title": "Заміна глобальним пошуком",
+		"description": "Дано рядок 'aaa@bbb@ccc'. Замініть усі '@' на '!' за допомогою глобального пошуку та заміни.",
+		"solution": "aaa!bbb@ccc",
+		"completed": false,
+		"sectionId": 3
+	},
+	{
+		"id": 5,
+		"title": "Форматування дати",
+		"description": "Дано дату у форматі '2025-12-31'. Перетворіть цю дату на формат '31.12.2025' за допомогою метода split.",
+		"solution": "31.12.2025",
+		"completed": false,
+		"sectionId": 3
+	},
+	{
+		"id": 6,
+		"title": "Масив в рядок",
+		"description": "Дано масив ['Я', 'вивчаю', 'javascript', '!']. За допомогою методу join перетворіть масив у рядок 'Я+вивчаю+javascript+!'.",
+		"solution": "Я+вивчаю+javascript+!",
+		"completed": false,
+		"sectionId": 3
+	},
+	{
+		"id": 7,
+		"title": "Поки ділиться",
+		"description": "Дано число n = 1000. Необхідно поділити його на 2 стільки разів, поки результат ділення не стане меншим за 50. Порахуйте кількість ітерацій, необхідних для цього (ітерація – це прохід циклу), та поверніть це число за допомогою return.",
+		"solution": 5,
+		"completed": false,
+		"sectionId": 1
+	},
+	{
+		"id": 8,
+		"title": "Знайти остачу від ділення",
+		"description": "Дано змінні a = 10 і b = 3. Знайдіть залишок від ділення a на b",
+		"solution": 1,
+		"completed": false,
+		"sectionId": 2
+	},
+	{
+		"id": 9,
+		"title": "Якщо ділиться з остачою",
+		"description": "Дано змінні a = 10 і b = 3. Перевірте, що 'a' ділиться без остачі на 'b'. Якщо це так - поверніть 'YES' як результат виконання, інакше поверніть 'NO'",
+		"solution": "NO",
+		"completed": false,
+		"sectionId": 2
 	}
 ]
